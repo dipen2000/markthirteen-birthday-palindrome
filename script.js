@@ -138,11 +138,14 @@ function showClickListner(){
         
         let isPalindrome = checkPalindromeForAllTheFormats(date);
         if(isPalindrome){
-            message.innerText = "Yay your birthday is a palindrome."
+            message.innerText = "Yay!! your birthday is a palindrome."
         }
         else{
             let [counter , nextDate] = getNextPalindromeDate(date);
             message.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, You missed it by ${counter}. `;
         }
+    }
+    else{
+        message.innerText = "Please fill the input correctly."
     }
 }

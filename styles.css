@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --bg-color : #18191a;
+    --primary-color : #10B981;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.content{
+    height : 100vh;
+    width : 100vw;
+    display: flex;
+    /* border: 3px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color : var(--bg-color);
+}
+
+.heading{
+    font-family: 'Kalam', cursive;
+    color : white;
+}
+
+input{
+    width : 12.5rem;
+    /* text-align: center; */
+    margin : 1rem 0;
+    padding : 0.5rem;
+    outline : 0;
+    border : 5px solid var(--primary-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    border: 3px solid var(--primary-color);
+    font-family: 'Roboto Slab', serif;
+}
+
+#show-btn{
+    padding : 0.5rem 1rem;
+    outline : 0;
+    background-color : var(--primary-color);
+    border : 0;
+    border-radius: 10px;
+    color : white;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    cursor : pointer;
+    margin : 1rem 0;
+}
+
+.message{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color : var(--primary-color);
+}
+
